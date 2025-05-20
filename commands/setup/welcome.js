@@ -51,7 +51,7 @@ You have arrived in a world of wandering colonies, ambitious queens, and thrivin
 
         } catch (error) {
             console.error("Error creating welcome channel:", error);
-            await interaction.reply({ content: "❌ Failed to create the welcome channel. Check bot permissions.", ephemeral: true });
+            await interaction.reply({ content: "❌ Failed to create the welcome channel. Check bot permissions online.", ephemeral: true });
         }
     },
 };
