@@ -8,6 +8,8 @@
   },
   "private": true,
   "dependencies": {
-    "discord.js": "^14.19.3"
+    "@keyv/sqlite": "^4.0.4",
+    "discord.js": "^14.19.3",
+    "keyv": "^5.3.3"
   }
 }
